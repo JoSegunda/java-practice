@@ -14,5 +14,7 @@ public class Exercise02 {
 
         int totalSoma = a + b;
         System.out.println(a + " + " + b + " = " + (totalSoma));
+
+        sc.close();
     }
 }

@@ -21,5 +21,7 @@ public class Exercise03 {
         double result = a / b;
 
         System.out.println(a + " / " + b + " = " + result);
+
+        sc.close();
     }
 }
