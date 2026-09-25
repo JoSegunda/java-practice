@@ -10,4 +10,5 @@
 <p>1. Write a Java program to print 'Hello' on screen and your name on a separate line.</p>
 <p>2. Sum of Two Numbers</p>
 <p>3. Division of two numbers</p>
+<p>4. Arithmetic Operations</p>
 <p></p>
