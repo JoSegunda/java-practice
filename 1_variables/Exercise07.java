@@ -1,12 +1,27 @@
 // Write a Java program to display the following pattern.
 
+import java.util.Scanner;
 
 public class Exercise07 {
     public static void main (String[] args)
     {
-        System.out.println("   JJ    A   V     V   A");
-        System.out.println("   JJ   A A   V   V   A A");
-        System.out.println("JJ JJ  AAAAA   V V   AAAAA");
-        System.out.println("JJJJJ A     A   V   A     A");
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a Number: ");
+        int a = sc.nextInt();
+
+
+        System.out.println(a + " x " + 1 + " = " + (a*1));
+        System.out.println(a + " x " + 2 + " = " + (a*2));
+        System.out.println(a + " x " + 3 + " = " + (a*3));
+        System.out.println(a + " x " + 4 + " = " + (a*4));
+        System.out.println(a + " x " + 5 + " = " + (a*5));
+        System.out.println(a + " x " + 6 + " = " + (a*6));
+        System.out.println(a + " x " + 7 + " = " + (a*7));
+        System.out.println(a + " x " + 8 + " = " + (a*8));
+        System.out.println(a + " x " + 9 + " = " + (a*9));
+        System.out.println(a + " x " + 10 + " = "+ (a*10));
+
+        sc.close();
     }
 }

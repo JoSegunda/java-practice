@@ -13,6 +13,7 @@
 <p>4. Arithmetic Operations</p>
 <p>5. Product of Two Numbers</p>
 <p>6. Basic Arithmetic Operations</p>
+<p>7. Multiplication Table</p>
 <p>8. Pattern Display: JAVA</p>
 <p></p>
 <p></p>
