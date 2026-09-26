@@ -17,5 +17,7 @@ public class Exercise05
         int result = a * b;
 
         System.out.println(a + " x " + b + " = " + result);
+
+        sc.close();
     }
 }
