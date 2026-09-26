@@ -15,5 +15,6 @@
 <p>6. Basic Arithmetic Operations</p>
 <p>7. Multiplication Table</p>
 <p>8. Pattern Display: JAVA</p>
+<p>9. Expression Evaluation</p>
 <p></p>
 <p></p>
