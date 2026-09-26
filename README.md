@@ -12,7 +12,7 @@
 <p>3. Division of two numbers</p>
 <p>4. Arithmetic Operations</p>
 <p>5. Product of Two Numbers</p>
-<p></p>
+<p>6. Basic Arithmetic Operations</p>
 <p></p>
 <p></p>
 <p></p>
