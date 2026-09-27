@@ -15,5 +15,7 @@ public class Exercise11 {
 
         System.out.println("THe area of the circle is: " + area);
         System.out.println("THe perimeter of the circle is: " + perimeter);
+
+        sc.close();
     }
 }

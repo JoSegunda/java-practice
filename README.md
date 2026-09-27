@@ -18,4 +18,6 @@
 <p>9. Expression Evaluation</p>
 <p>10. Formula Computation</p>
 <p>11. Circle: Area and Perimeter</p>
+<p>12. Average of Three Numbers</p>
+<p></p>
 <p></p>
