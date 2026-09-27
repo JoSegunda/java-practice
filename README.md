@@ -20,4 +20,10 @@
 <p>11. Circle: Area and Perimeter</p>
 <p>12. Average of Three Numbers</p>
 <p>13. Celsius to Farenheit</p>
+<p>14. Even or Odd</p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
 <p></p>
