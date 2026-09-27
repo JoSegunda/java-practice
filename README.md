@@ -17,5 +17,5 @@
 <p>8. Pattern Display: JAVA</p>
 <p>9. Expression Evaluation</p>
 <p>10. Formula Computation</p>
-<p></p>
+<p>11. Circle: Area and Perimeter</p>
 <p></p>
