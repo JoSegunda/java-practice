@@ -30,7 +30,10 @@ public class Banking {
             // This loop will repeat until a valid value is inputed
             do 
             {
-                System.out.println("\nChoose the operation");
+                System.out.print("\nChoose the operation: ");
+
+                choice = sc.nextInt();
+
             } while (choice > 5 || choice < 1);
             
             
@@ -38,44 +41,53 @@ public class Banking {
             switch (choice) {
                 // Deposit amount
                 case 1:
-                    System.out.println("/n/n------------------------------------");
-                    System.out.println("How much would like to deposit: ");
-                    System.out.println("/n/n------------------------------------");
-
-                    amount = sc.nextDouble();
-                    account += amount;
-
-                    System.out.println("Amount deposited successfully");
-                    break;
-                case 2:
                     do 
                     {
-                        System.out.println("/n/n------------------------------------");
-                        System.out.println("How much would like to Whithdraw: ");
-                        System.out.println("/n/n------------------------------------");
+                        System.out.println("\n\n------------------------------");
+                        System.out.print("How much would like to deposit €");
+
+                        amount = sc.nextDouble();
+
+                        System.out.println("-------------------------------");
+                        
+                        System.out.println((amount < 0) ? "Impossible to deposit, amount must be greater than 0 (zero)" : "Deposit is successfull ✅✅");
+
+                    } while (amount <= 0);
+                    
+                    account += amount;
+                    break;
+                case 2:
+                    // Repeat the prompt while the amount is invalid
+                    do 
+                    {
+                        System.out.println("------------------------------------");
+                        System.out.print("How much would like to Whithdraw: ");
 
                         valueWithdrawed = sc.nextDouble();
 
+                        System.out.println("------------------------------------");
+
+                        
+
+                        // Display wheather the amount is valid or not
                         System.out.println((valueWithdrawed > account) ? "Impossible to Withdraw, Try again" : "Withdrawal is successfull ✅✅");
                     } while (valueWithdrawed > account);
                     
+                    // Update the account
                     account -= valueWithdrawed;
                     
-                    if (valueWithdrawed > account) {
-                        System.out.println("The input amount is to high, try again please.");
-                    }
-                    account -= valueWithdrawed;
-                    System.out.println("Amount withdrawed successfully✅✅");
                     break;
                 case 3:
-                    System.out.println("/n/n------------------------------");
-                    System.out.println("/n/nCurrent Balance: " + amount + "€ ");
-                    System.out.println("/n/n------------------------------");
+                    System.out.println("------------------------------");
+                    System.out.println("Current Balance: " + account + "€ ");
+                    System.out.println("------------------------------\n");
                     break;
                 default:
                     break;
             }
         }
+
+        System.out.println("EXITING.......");
 
 
         sc.close();
