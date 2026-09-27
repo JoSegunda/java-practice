@@ -19,5 +19,7 @@ public class Exercise12 {
         double avg = (a + b + c) / 3;
 
         System.out.println("The average of the three is: " + avg);
+
+        sc.close();
     }
 }
