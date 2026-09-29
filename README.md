@@ -136,6 +136,11 @@
       <td>Multiplication Table</td>
       <td>Conditionals</td>
     </tr>
+    <tr>
+      <td>18</td>
+      <td>Factorial</td>
+      <td>Loops, problem solving, functions</td>
+    </tr>
   </tbody>
 </table>
 
