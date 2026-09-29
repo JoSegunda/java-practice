@@ -10,9 +10,10 @@ public class Exercise18 {
 
         System.out.println(value + "!" + " = " + factorial(value));
         
+        sc.close();
     }
 
-    static long factorial (int n)\
+    static long factorial (int n)
     {
         if (n > 1)
         {

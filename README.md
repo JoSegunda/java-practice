@@ -139,8 +139,14 @@
     <tr>
       <td>18</td>
       <td>Factorial</td>
-      <td>Loops, problem solving, functions</td>
+      <td>Loops, problem solving, Methods, recursion</td>
     </tr>
+    <tr>
+      <td>19</td>
+      <td>Sum of Numbers</td>
+      <td>Loops, problem solving</td>
+    </tr>
+    
   </tbody>
 </table>
 
