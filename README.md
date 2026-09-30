@@ -151,6 +151,11 @@
       <td>Area Calculator</td>
       <td>problem solving, math expressions</td>
     </tr>
+    <tr>
+      <td>21</td>
+      <td>Shopping Receipt</td>
+      <td>problem solving, math expressions</td>
+    </tr>
     
   </tbody>
 </table>
