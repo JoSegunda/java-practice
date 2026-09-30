@@ -146,6 +146,11 @@
       <td>Sum of Numbers</td>
       <td>Loops, problem solving</td>
     </tr>
+    <tr>
+      <td>20</td>
+      <td>Area Calculator</td>
+      <td>problem solving, math expressions</td>
+    </tr>
     
   </tbody>
 </table>
