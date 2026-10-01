@@ -163,6 +163,12 @@
     </tr>
     <tr>
       <td>23</td>
+      <td>Currency Exchange</td>
+      <td>Printing data</td>
+    </tr>
+    
+    <tr>
+      <td>24</td>
       <td>Rectangle Border</td>
       <td>loops</td>
     </tr>
