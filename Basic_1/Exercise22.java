@@ -24,5 +24,7 @@ public class Exercise22 {
         System.out.printf("Name: %s\n", name);
         System.out.printf("Age: %d\n", age);
         System.out.printf("City: %s\n", city);
+
+        sc.close();
     }
 }

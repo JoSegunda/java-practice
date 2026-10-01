@@ -161,6 +161,11 @@
       <td>Personal Info</td>
       <td>input and information display</td>
     </tr>
+    <tr>
+      <td>23</td>
+      <td>Rectangle Border</td>
+      <td>loops</td>
+    </tr>
     
   </tbody>
 </table>
