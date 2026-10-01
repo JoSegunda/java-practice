@@ -21,5 +21,7 @@ public class Exercise21 {
         System.out.printf("Price: $%.2f\n", price);
         System.out.printf("Quantity: %d\n", quantity);
         System.out.printf("Total: $%.2f\n", total);
+
+        sc.close();
     }
 }

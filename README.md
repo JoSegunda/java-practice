@@ -156,6 +156,11 @@
       <td>Shopping Receipt</td>
       <td>problem solving, math expressions</td>
     </tr>
+    <tr>
+      <td>22</td>
+      <td>Personal Info</td>
+      <td>input and information display</td>
+    </tr>
     
   </tbody>
 </table>
