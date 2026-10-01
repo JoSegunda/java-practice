@@ -21,5 +21,7 @@ public class Exercise23 {
         double result = amount * rate;
 
         System.out.printf("Result: %.2f\n", result);
+
+        sc.close();
     }
 }
