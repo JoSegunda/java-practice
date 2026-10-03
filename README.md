@@ -184,44 +184,29 @@
 
 <hr>
 
-<h2>📊 Grade Calculator</h2>
+<h3>02 — Functions &amp; Math, Loops</h3>
 
 <p>
-  One of the exercises implements a basic grading system based on the following rules:
+  These exercises focus on Java's fundamental syntax, variables, arithmetic operations,
+  expressions, and basic program output.
 </p>
 
 <table>
   <thead>
     <tr>
-      <th>Score</th>
-      <th>Grade</th>
+      <th>#</th>
+      <th>Exercise</th>
+      <th>Concepts Practiced</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>90 or more</td>
-      <td>A</td>
-    </tr>
-    <tr>
-      <td>80 – 89</td>
-      <td>B</td>
-    </tr>
-    <tr>
-      <td>70 – 79</td>
-      <td>C</td>
-    </tr>
-    <tr>
-      <td>60 – 69</td>
-      <td>D</td>
-    </tr>
-    <tr>
-      <td>Below 60</td>
-      <td>F</td>
+      <td>01</td>
+      <td>Leap year</td>
+      <td>Conditionals</td>
     </tr>
   </tbody>
 </table>
-
-<hr>
 
 <h2>🎯 Goals</h2>
 
