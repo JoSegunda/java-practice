@@ -173,6 +173,12 @@
       <td>loops</td>
     </tr>
     
+    <tr>
+      <td>25</td>
+      <td>Simple Calculator</td>
+      <td>operations</td>
+    </tr>
+    
   </tbody>
 </table>
 
