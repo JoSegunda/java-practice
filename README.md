@@ -184,6 +184,11 @@
       <td>Discount Price</td>
       <td>Operators</td>
     </tr>
+    <tr>
+      <td>27</td>
+      <td>Split the Bill</td>
+      <td>Operators</td>
+    </tr>
     
   </tbody>
 </table>
