@@ -190,6 +190,12 @@
       <td>Operators</td>
     </tr>
     
+    <tr>
+      <td>28</td>
+      <td>Digit Extractor</td>
+      <td>Operators</td>
+    </tr>
+    
   </tbody>
 </table>
 
