@@ -195,6 +195,11 @@
       <td>Digit Extractor</td>
       <td>Operators</td>
     </tr>
+    <tr>
+      <td>29</td>
+      <td>Word Counter</td>
+      <td>Strings, Arrays</td>
+    </tr>
     
   </tbody>
 </table>
