@@ -178,6 +178,12 @@
       <td>Simple Calculator</td>
       <td>operations</td>
     </tr>
+
+    <tr>
+      <td>26</td>
+      <td>Discount Price</td>
+      <td>Operators</td>
+    </tr>
     
   </tbody>
 </table>
@@ -205,6 +211,7 @@
       <td>Leap year</td>
       <td>Conditionals</td>
     </tr>
+    
   </tbody>
 </table>
 
