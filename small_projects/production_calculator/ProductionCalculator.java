@@ -49,9 +49,10 @@ public class ProductionCalculator {
             goalMessage = "Objective not achieved";
         }
 
+        // PRINT RESULTS
         System.out.println("Good parts: " + usefulParts);
         System.out.printf("Rate of defective parts: %.2f\n", defectRate);
-        System.out.printf("Goal Description");
+        System.out.printf("Goal Description: %s\n", goalMessage);
 
         sc.close();
 
