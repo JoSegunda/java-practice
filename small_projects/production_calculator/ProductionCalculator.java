@@ -4,10 +4,13 @@ import java.util.Scanner;
 public class ProductionCalculator {
     public static void main(String[] args)
     {
+        
         Scanner sc = new Scanner(System.in);
         int totalUnits, defectiveParts, productionGoal;
         // Data input
 
+        // TODO: ROBUST INPUT VALIDATION
+        
         // read total units
         System.out.print("Input total units: ");
         totalUnits = sc.nextInt();
@@ -21,6 +24,8 @@ public class ProductionCalculator {
         productionGoal = sc.nextInt();
 
         // MAKE CALCULATIONS
+
+        // TODO: IMPROVE ON EFFICIENCY AND PRODUCTIVITY METRICS
 
         // THe number of actual parts produced
         int usefulParts = totalUnits - defectiveParts ;
@@ -44,6 +49,12 @@ public class ProductionCalculator {
         {
             goalMessage = "Objective not achieved";
         }
+
+        // TODO: FINANCIAL IMPACT AND COSTS
+
+        // TODO: QUALITY CLASSIFIER
+
+        // TODO: SUPPORT TO ASSEMBLY LINES
 
         // PRINT RESULTS
         System.out.println("\nGood parts: " + usefulParts);
