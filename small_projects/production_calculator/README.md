@@ -1,5 +1,4 @@
 <h1> Calculadora de Produção</h1>
-<hr>
 <p>
     Este projeto consiste numa aplicação de consola simples concebida para ajudar a monitorizar o desempenho de uma
      linha de produção ou de um turno de trabalho. O programa atua como um assistente analítico direto: 
@@ -11,7 +10,7 @@
 <p>O fluxo da aplicação divide-se em quatro fases lógicas consecutivas:</p>
 
 <ol>
-    <b><li>Entrada de Dados</li></b>
+    <li><b>Entrada de Dados</b></li>
      <p>O programa começa por solicitar, sequencialmente, três valores inteiros ao utilizador:</p>
      <ul>
         <li><b>Unidades totais produzidas:</b> Quantidade bruta de peças saídas da linha no turno.</li>
@@ -24,6 +23,7 @@
      <ul>
         <li><b>Cálculo de Peças Úteis:</b> Determina a produção efetiva subtraindo os defeitos ao total produzido.</li>
         <li><b>Tratamento de Exceção e Percentagem de Rejeição:</b> Se o total de peças produzidas for maior que zero, calcula a proporção de defeitos em relação ao total:</li>
+        
         <math display="block">
             <mtext>Taxa de Defeito (%)</mtext>
             <mo>=</mo>
