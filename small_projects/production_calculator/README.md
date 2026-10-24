@@ -46,4 +46,48 @@
         <li><b>Verificação da Meta:</b> Compara as unidades boas apuradas com a meta do turno. Se a produção útil for 
             igual ou superior ao objetivo definido, a meta é considerada cumprida; caso contrário, é considerada não atingida.</li>
      </ul>
+
+     <h2>Data input validations</h2>
+     <hr>
+     <table>
+        <thead>
+            <tr>
+                <th>Test Scenario</th>
+                <th>Produced</th>
+                <th>Defective</th>
+                <th>Target</th>
+                <th>Expected Output</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Normal case (target met)</td>
+                <td>1000</td>
+                <td>50</td>
+                <td>900</td>
+                <td>950 good, 5.0% defects, Target met</td>
+            </tr>
+            <tr>
+                <td>Normal case (target missed)</td>
+                <td>800</td>
+                <td>100</td>
+                <td>750</td>
+                <td>700 good, 12.5% defects, Target not met</td>
+            </tr>
+            <tr>
+                <td>Line stopped (division by zero)</td>
+                <td>0</td>
+                <td>0</td>
+                <td>500</td>
+                <td>0 good, 0.0% defects, Target not met</td>
+            </tr>
+            <tr>
+                <td>Perfect shift</td>
+                <td>500</td>
+                <td>0</td>
+                <td>500</td>
+                <td>500 good, 0.0% defects, Target met</td>
+            </tr>
+        </tbody>
+    </table>
 </ol>
