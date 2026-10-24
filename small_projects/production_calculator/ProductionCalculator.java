@@ -10,7 +10,7 @@ public class ProductionCalculator {
         boolean invalidInput = false;
         // Data input
 
-        // TODO: ROBUST INPUT VALIDATION
+        // -----------  ROBUST INPUT VALIDATION  ---------------------
 
         // Check negative values for total inputs
         do
