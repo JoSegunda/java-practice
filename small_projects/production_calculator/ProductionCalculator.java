@@ -26,15 +26,11 @@ public class ProductionCalculator {
         int usefulParts = totalUnits - defectiveParts ;
 
         // Measures the percentage of parts that are defective
-        double defectRate;
+        double defectRate = 0;
 
-        if (totalUnits > 0) 
+        if (usefulParts > 0) 
         {
-            defectRate = (defectiveParts / totalUnits) * 100;
-        }
-        else
-        {
-            defectRate = 0;
+            defectRate = ((double)(defectiveParts) / (double)(totalUnits)) * 100;
         }
 
         // Check if goal accomplished
@@ -42,7 +38,7 @@ public class ProductionCalculator {
 
         if (usefulParts >= productionGoal)
         {
-            goalMessage = "Objective achievd";
+            goalMessage = "Objective achieved";
         }
         else
         {
@@ -50,8 +46,8 @@ public class ProductionCalculator {
         }
 
         // PRINT RESULTS
-        System.out.println("Good parts: " + usefulParts);
-        System.out.printf("Rate of defective parts: %.2f\n", defectRate);
+        System.out.println("\nGood parts: " + usefulParts);
+        System.out.printf("Rate of defective parts: %.2f%% \n", defectRate);
         System.out.printf("Goal Description: %s\n", goalMessage);
 
         sc.close();
