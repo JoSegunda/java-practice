@@ -50,6 +50,12 @@ public class ProductionCalculator {
             productionGoal = sc.nextInt();
 
             invalidInput = checkNegative(productionGoal);
+
+            if (productionGoal > totalUnits) 
+            {
+                invalidInput = true;
+                System.out.println("Error: Production goal cannot be greater than total units\n");    
+            }
         }
         while (invalidInput);
         
