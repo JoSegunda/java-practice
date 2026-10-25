@@ -50,27 +50,47 @@ public class ProductionCalculator {
             productionGoal = sc.nextInt();
 
             invalidInput = checkNegative(productionGoal);
-
-            if (productionGoal > totalUnits) 
-            {
-                invalidInput = true;
-                System.out.println("Error: Production goal cannot be greater than total units\n");    
-            }
         }
         while (invalidInput);
         
 
-        // MAKE CALCULATIONS
+        //  ----------------  MAKE CALCULATIONS  --------------
+
+        // THe number of actual parts produced
+        int goodParts = totalUnits - defectiveParts ;
 
         // TODO: IMPROVE ON EFFICIENCY AND PRODUCTIVITY METRICS
 
-        // THe number of actual parts produced
-        int usefulParts = totalUnits - defectiveParts ;
+        double yieldRate, shiftDuration, partsPerHour, targetAttainment, goodPartsPerHour, secondsPerGoodPart;
+
+        // Validation of the shift input
+        do
+        {
+            // Read shift hours
+            System.out.print("Shift duration (h): ");
+            shiftDuration = sc.nextDouble();
+        }
+        while(shiftDuration <= 0 || shiftDuration > 8);
+
+        // Yield rate percentages of failures 
+        yieldRate = (totalUnits > 0) ? ((double)(goodParts) / (double)(totalUnits)) * 100 : 0.0;
+
+        // Show how close the team got to the goal
+        targetAttainment = (productionGoal > 0) ? ((double)(goodParts) / (double)(productionGoal)) * 100 : 0.0;
+
+        // Parts per hour
+        goodPartsPerHour = goodParts / shiftDuration;
+
+        // Good parts per hour
+        partsPerHour = totalUnits / shiftDuration;
+        
+        // SecondPerGoodPart: Determine how many seconds or minutes it takes the factory, on average, to complete one usable unit.
+        secondsPerGoodPart = (goodParts > 0) ? (shiftDuration * 3600) / goodParts : 0;
 
         // Measures the percentage of parts that are defective
         double defectRate = 0;
 
-        if (usefulParts > 0) 
+        if (goodParts > 0) 
         {
             defectRate = ((double)(defectiveParts) / (double)(totalUnits)) * 100;
         }
@@ -78,14 +98,7 @@ public class ProductionCalculator {
         // Check if goal accomplished
         String goalMessage;
 
-        if (usefulParts >= productionGoal)
-        {
-            goalMessage = "Objective achieved";
-        }
-        else
-        {
-            goalMessage = "Objective not achieved";
-        }
+        goalMessage = (goodParts >= productionGoal) ? "Target Reached at" :  "Target not met by";
 
         // TODO: FINANCIAL IMPACT AND COSTS
 
@@ -94,9 +107,15 @@ public class ProductionCalculator {
         // TODO: SUPPORT TO ASSEMBLY LINES
 
         // PRINT RESULTS
-        System.out.println("\nGood parts: " + usefulParts);
+        System.out.println("\nGood parts: " + goodParts);
         System.out.printf("Rate of defective parts: %.2f%% \n", defectRate);
-        System.out.printf("Goal Description: %s\n", goalMessage);
+
+        // EFFICIENCY AND PRODUCTIVITY METRICS OUTPUTS
+        System.out.printf("percentage of defect-free production on the first pass:  %s %.2f%%\n", goalMessage, yieldRate);
+        System.out.printf("how close or far the team came to the established goal, as a percentage: %.2f%%\n", targetAttainment);
+        System.out.printf("%.2f good parts/hour \n", goodPartsPerHour);
+        System.out.printf("%.2f parts/hour \n", partsPerHour);
+        System.out.printf("%.2f parts/second \n", secondsPerGoodPart);
 
         sc.close();
 
