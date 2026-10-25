@@ -139,7 +139,35 @@ public class ProductionCalculator {
         // Gross profit margin: Calculate the percentage profitability of the shift's sales.
         grossProfitMargin = (grossRevenue > 0.00) ? (grossProfit / grossRevenue) * 100 : 0; 
 
-        // TODO: QUALITY CLASSIFIER
+        // ----------------- QUALITY CLASSIFIER --------------------------
+
+        String classification, action;
+
+        if (totalUnits == 0) 
+        {
+            classification = "No Data / Inactive Line";
+            action = "No intervention needer";
+        }
+        else if (defectRate < 1.0)
+        {
+            classification ="EXCELLENT (A Class)";
+            action = "Process optimized. Keep current standards";
+        }
+        else if (defectRate <= 3.0)
+        {
+            classification = "ACCEPTABLE (Classe B)";
+            action = "Production within tolerance limits.";
+        }
+        else if (defectRate <= 5.0)
+        {
+            classification = "CAUTION (C Class)";
+            action = "Waste above the standard. Notify supervisor and increase sampling.";
+        }
+        else
+        {
+            classification = "CRITICAL - MAINTENANCE ALERT (D Class)";
+            action = "STOP THE LINE. Begin mechanical inspection and calibration immediately. ";
+        }
 
         // TODO: SUPPORT TO ASSEMBLY LINES
 
@@ -159,8 +187,11 @@ public class ProductionCalculator {
         System.out.printf("Total Cost: %.2f\n", totalCost);
         System.out.printf("Waste Cost: %.2f\n", wasteCost);
         System.out.printf("Gross Profit: %.2f\n", grossProfit);
-        System.out.printf("Gross Profit Margin: %.2f%%\n", grossProfitMargin);
+        System.out.printf("Gross Profit Margin: %.2f%%\n\n", grossProfitMargin);
 
+        // QUALITY CLASSIFIER OUTPUTS
+        System.out.println("Classification: " + classification);
+        System.out.println("Action: " + action);
         sc.close();
 
     }
