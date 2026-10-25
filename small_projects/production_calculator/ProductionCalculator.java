@@ -23,9 +23,9 @@ public class ProductionCalculator {
         int totalProcessedShifts = 0, sumProduced = 0, sumDefective = 0, sumGoodParts = 0;
         double sumGrossRevenue = 0, sumCosts = 0, sumGrossProfit = 0 ;
 
-        // TODO: SUPPORT TO ASSEMBLY LINES
+        // SUPPORT TO ASSEMBLY LINES
 
-        // MAIN LOOP FOR SHIFT AND LINES Calculations
+        // MAIN LOOP FOR SHIFT AND LINES CALCULATIONS
         do
         {
             totalProcessedShifts++;
