@@ -59,7 +59,7 @@ public class ProductionCalculator {
         // THe number of actual parts produced
         int goodParts = totalUnits - defectiveParts ;
 
-        // TODO: IMPROVE ON EFFICIENCY AND PRODUCTIVITY METRICS
+        // --------------   IMPROVE ON EFFICIENCY AND PRODUCTIVITY METRICS -----------------
 
         double yieldRate, shiftDuration, partsPerHour, targetAttainment, goodPartsPerHour, secondsPerGoodPart;
 
@@ -70,7 +70,7 @@ public class ProductionCalculator {
             System.out.print("Shift duration (h): ");
             shiftDuration = sc.nextDouble();
         }
-        while(shiftDuration <= 0 || shiftDuration > 8);
+        while (shiftDuration <= 0 || shiftDuration > 8);
 
         // Yield rate percentages of failures 
         yieldRate = (totalUnits > 0) ? ((double)(goodParts) / (double)(totalUnits)) * 100 : 0.0;
