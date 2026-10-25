@@ -100,7 +100,7 @@ public class ProductionCalculator {
 
         goalMessage = (goodParts >= productionGoal) ? "Target Reached at" :  "Target not met by";
 
-        // TODO: FINANCIAL IMPACT AND COSTS
+        // ---------------- FINANCIAL IMPACT AND COSTS  --------------------------
 
         double unitPrice, productionCost, grossRevenue, totalCost, wasteCost, grossProfit, grossProfitMargin;
 
