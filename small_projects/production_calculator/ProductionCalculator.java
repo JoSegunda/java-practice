@@ -102,6 +102,43 @@ public class ProductionCalculator {
 
         // TODO: FINANCIAL IMPACT AND COSTS
 
+        double unitPrice, productionCost, grossRevenue, totalCost, wasteCost, grossProfit, grossProfitMargin;
+
+        // Validate price input
+        do 
+        {
+            System.out.print("Price sale: $");
+            unitPrice = sc.nextDouble();
+            
+            // Check if input is negativeor zero
+            invalidInput = (unitPrice > 0) ? false : true;
+
+        } while (invalidInput);
+
+        // Validation production cost input
+        do 
+        {
+            System.out.print("Production cost per unit: $");
+            productionCost  = sc.nextDouble();
+            
+            invalidInput = checkNegative(productionCost);
+        } while (invalidInput);
+
+        // grossRevenue - Calculate the total financial volume generated from the items approved for sale.
+        grossRevenue = goodParts * unitPrice;   // Note: Defective parts do not generate direct sales revenue.
+
+        // Total Cost: Calculate how much the factory actually spent to produce everything that came off the line (good parts + defective ones).
+        totalCost = totalUnits * productionCost; // Note: The cost applies to all units produced, as material and energy were consumed even for the parts that failed.
+
+        // Waste Cost: Isolate the direct monetary loss caused exclusively by the defects.
+        wasteCost = defectiveParts * productionCost;
+
+        // Gross Profit: Evaluate the actual financial balance for the shift (earnings minus expenses).
+        grossProfit = grossRevenue - totalCost;
+
+        // Gross profit margin: Calculate the percentage profitability of the shift's sales.
+        grossProfitMargin = (grossRevenue > 0.00) ? (grossProfit / grossRevenue) * 100 : 0; 
+
         // TODO: QUALITY CLASSIFIER
 
         // TODO: SUPPORT TO ASSEMBLY LINES
@@ -115,14 +152,21 @@ public class ProductionCalculator {
         System.out.printf("how close or far the team came to the established goal, as a percentage: %.2f%%\n", targetAttainment);
         System.out.printf("%.2f good parts/hour \n", goodPartsPerHour);
         System.out.printf("%.2f parts/hour \n", partsPerHour);
-        System.out.printf("%.2f parts/second \n", secondsPerGoodPart);
+        System.out.printf("%.2f parts/second \n\n", secondsPerGoodPart);
+
+        // FINANCIAL IMPACT AND COSTS OUTPUTS
+        System.out.printf("Gross Revenue: %.2f\n", grossRevenue);
+        System.out.printf("Total Cost: %.2f\n", totalCost);
+        System.out.printf("Waste Cost: %.2f\n", wasteCost);
+        System.out.printf("Gross Profit: %.2f\n", grossProfit);
+        System.out.printf("Gross Profit Margin: %.2f%%\n", grossProfitMargin);
 
         sc.close();
 
     }
 
     // Checks wether a value is negative or not
-    static boolean checkNegative(int num)
+    static boolean checkNegative(double num)
     {
         if (num < 0)
         {
