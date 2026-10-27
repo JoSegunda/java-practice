@@ -296,6 +296,12 @@
       <td>Loops, Conditions</td>
     </tr>
     
+    <tr>
+      <td>46</td>
+      <td>Reverse a string</td>
+      <td>Loops, Strings</td>
+    </tr>
+    
   </tbody>
 </table>
 
