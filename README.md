@@ -126,7 +126,7 @@ A console-based shift analytics tool that tracks manufacturing line performance,
 * **Key Concepts:** Console I/O, integer vs. floating-point division, conditional logic, edge-case validation
 * **Status:** Complete
 
-👉 [View Project & Full Documentation](../small_projects/production_calculator/productionCalculator.java)
+👉 [View Project & Full Documentation](small_projects/production_calculator/productionCalculator.java)
 </details>
 ---
 
