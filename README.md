@@ -206,6 +206,12 @@
       <td>Strings</td>
     </tr>
     
+    <tr>
+      <td>31</td>
+      <td>Repeat Each Character</td>
+      <td>Strings</td>
+    </tr>
+    
   </tbody>
 </table>
 
