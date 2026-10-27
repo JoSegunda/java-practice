@@ -211,6 +211,11 @@
       <td>Repeat Each Character</td>
       <td>Strings</td>
     </tr>
+    <tr>
+      <td>32</td>
+      <td>Repeat a string</td>
+      <td>Strings</td>
+    </tr>
     
   </tbody>
 </table>
