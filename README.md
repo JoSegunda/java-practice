@@ -236,6 +236,12 @@
       <td>Conditions</td>
     </tr>
     
+    <tr>
+      <td>36</td>
+      <td>Positive negative zero</td>
+      <td>Conditions</td>
+    </tr>
+    
   </tbody>
 </table>
 
