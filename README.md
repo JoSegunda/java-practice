@@ -266,6 +266,12 @@
       <td>Loops</td>
     </tr>
     
+    <tr>
+      <td>41</td>
+      <td>Star Triangle</td>
+      <td>Loops</td>
+    </tr>
+    
   </tbody>
 </table>
 
