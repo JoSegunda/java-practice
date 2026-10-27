@@ -302,6 +302,12 @@
       <td>Loops, Strings</td>
     </tr>
     
+    <tr>
+      <td>47</td>
+      <td>Sum of digits</td>
+      <td>Loops</td>
+    </tr>
+    
   </tbody>
 </table>
 
