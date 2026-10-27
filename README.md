@@ -242,6 +242,12 @@
       <td>Conditions</td>
     </tr>
     
+    <tr>
+      <td>37</td>
+      <td>Smallest of three</td>
+      <td>Conditions</td>
+    </tr>
+    
   </tbody>
 </table>
 
