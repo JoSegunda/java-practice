@@ -272,6 +272,12 @@
       <td>Loops</td>
     </tr>
     
+    <tr>
+      <td>42</td>
+      <td>Tip calculator</td>
+      <td>Loops</td>
+    </tr>
+    
   </tbody>
 </table>
 
