@@ -290,6 +290,12 @@
       <td>Loops, funtions</td>
     </tr>
     
+    <tr>
+      <td>45</td>
+      <td>Min and Max</td>
+      <td>Loops, Conditions</td>
+    </tr>
+    
   </tbody>
 </table>
 
