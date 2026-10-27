@@ -254,6 +254,12 @@
       <td>Loops</td>
     </tr>
     
+    <tr>
+      <td>39</td>
+      <td>FizzBuzz</td>
+      <td>Conditions</td>
+    </tr>
+    
   </tbody>
 </table>
 
