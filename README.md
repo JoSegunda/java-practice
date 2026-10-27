@@ -200,6 +200,11 @@
       <td>Word Counter</td>
       <td>Strings, Arrays</td>
     </tr>
+    <tr>
+      <td>30</td>
+      <td>First and Last</td>
+      <td>Strings</td>
+    </tr>
     
   </tbody>
 </table>
