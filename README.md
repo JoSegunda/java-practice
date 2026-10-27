@@ -1,355 +1,142 @@
-<h1>☕ Java Exercises</h1>
+# ☕ Java Exercises
 
-<p>
-  A structured collection of Java exercises and programming challenges designed to strengthen my understanding of
-  <strong>Java fundamentals, problem-solving, and object-oriented programming</strong>.
-</p>
+A structured collection of Java exercises and programming challenges designed to strengthen my understanding of **Java fundamentals, problem-solving, and object-oriented programming**.
 
-<p>
-  This repository documents my progress as I learn Java. The exercises are organized by topic and gradually increase
-  in difficulty as I build a stronger understanding of the language.
-</p>
+This repository documents my progress as I learn Java. The exercises are organized by topic and gradually increase in difficulty as I build a stronger understanding of the language.
 
-<hr>
+---
 
-<h2>📚 Topics</h2>
+## 📚 Topics
 
-<p>The exercises cover the following topics as I progress through Java:</p>
+The exercises cover the following topics as I progress through Java:
 
-<ul>
-  <li>Variables &amp; Data Types</li>
-  <li>Operators &amp; Expressions</li>
-  <li>User Input</li>
-  <li>Conditional Statements</li>
-  <li>Loops</li>
-  <li>Methods</li>
-  <li>Arrays</li>
-  <li>Strings</li>
-  <li>Object-Oriented Programming</li>
-  <li>Collections</li>
-  <li>Exception Handling</li>
-  <li>File I/O</li>
-</ul>
+- Variables & Data Types
+- Operators & Expressions
+- User Input
+- Conditional Statements
+- Loops
+- Methods
+- Arrays
+- Strings
+- Object-Oriented Programming
+- Collections
+- Exception Handling
+- File I/O
 
-<hr>
+---
 
-<h2>🟢 Current Progress</h2>
+## 🟢 Current Progress
 
-<h3>01 — Variables &amp; Basic Operations</h3>
+<details>
+<summary><b>01 — Basic Exercises</b></summary>
 
-<p>
-  These exercises focus on Java's fundamental syntax, variables, arithmetic operations,
-  expressions, and basic program output.
-</p>
+<br>
 
-<table>
-  <thead>
-    <tr>
-      <th>#</th>
-      <th>Exercise</th>
-      <th>Concepts Practiced</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>01</td>
-      <td>Hello, Name &amp; Output</td>
-      <td>Basic syntax, console output</td>
-    </tr>
-    <tr>
-      <td>02</td>
-      <td>Sum of Two Numbers</td>
-      <td>Variables, arithmetic operators</td>
-    </tr>
-    <tr>
-      <td>03</td>
-      <td>Division of Two Numbers</td>
-      <td>Arithmetic, data types</td>
-    </tr>
-    <tr>
-      <td>04</td>
-      <td>Arithmetic Operations</td>
-      <td>Operators, variables</td>
-    </tr>
-    <tr>
-      <td>05</td>
-      <td>Product of Two Numbers</td>
-      <td>Arithmetic</td>
-    </tr>
-    <tr>
-      <td>06</td>
-      <td>Basic Arithmetic Operations</td>
-      <td>Operators, expressions</td>
-    </tr>
-    <tr>
-      <td>07</td>
-      <td>Multiplication Table</td>
-      <td>Variables, loops</td>
-    </tr>
-    <tr>
-      <td>08</td>
-      <td>Pattern Display: JAVA</td>
-      <td>Loops, console output</td>
-    </tr>
-    <tr>
-      <td>09</td>
-      <td>Expression Evaluation</td>
-      <td>Expressions, operator precedence</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td>Formula Computation</td>
-      <td>Variables, arithmetic</td>
-    </tr>
-    <tr>
-      <td>11</td>
-      <td>Circle: Area &amp; Perimeter</td>
-      <td>Math operations, formulas</td>
-    </tr>
-    <tr>
-      <td>12</td>
-      <td>Average of Three Numbers</td>
-      <td>Arithmetic, data types</td>
-    </tr>
-    <tr>
-      <td>13</td>
-      <td>Celsius to Fahrenheit</td>
-      <td>Type conversion, arithmetic</td>
-    </tr>
-    <tr>
-      <td>14</td>
-      <td>Even or Odd</td>
-      <td>Conditionals, modulo operator</td>
-    </tr>
-    <tr>
-      <td>15</td>
-      <td>Username Generator</td>
-      <td>Strings, variables</td>
-    </tr>
-    <tr>
-      <td>16</td>
-      <td>Grade Calculator</td>
-      <td>Conditionals, comparison operators</td>
-    </tr>
-    <tr>
-      <td>17</td>
-      <td>Multiplication Table</td>
-      <td>Conditionals</td>
-    </tr>
-    <tr>
-      <td>18</td>
-      <td>Factorial</td>
-      <td>Loops, problem solving, Methods, recursion</td>
-    </tr>
-    <tr>
-      <td>19</td>
-      <td>Sum of Numbers</td>
-      <td>Loops, problem solving</td>
-    </tr>
-    <tr>
-      <td>20</td>
-      <td>Area Calculator</td>
-      <td>problem solving, math expressions</td>
-    </tr>
-    <tr>
-      <td>21</td>
-      <td>Shopping Receipt</td>
-      <td>problem solving, math expressions</td>
-    </tr>
-    <tr>
-      <td>22</td>
-      <td>Personal Info</td>
-      <td>input and information display</td>
-    </tr>
-    <tr>
-      <td>23</td>
-      <td>Currency Exchange</td>
-      <td>Printing data</td>
-    </tr>
-    
-    <tr>
-      <td>24</td>
-      <td>Rectangle Border</td>
-      <td>loops</td>
-    </tr>
-    
-    <tr>
-      <td>25</td>
-      <td>Simple Calculator</td>
-      <td>operations</td>
-    </tr>
+These exercises focus on Java's fundamental syntax, variables, arithmetic operations, expressions, and basic program output.
 
-    <tr>
-      <td>26</td>
-      <td>Discount Price</td>
-      <td>Operators</td>
-    </tr>
-    <tr>
-      <td>27</td>
-      <td>Split the Bill</td>
-      <td>Operators</td>
-    </tr>
-    
-    <tr>
-      <td>28</td>
-      <td>Digit Extractor</td>
-      <td>Operators</td>
-    </tr>
-    <tr>
-      <td>29</td>
-      <td>Word Counter</td>
-      <td>Strings, Arrays</td>
-    </tr>
-    <tr>
-      <td>30</td>
-      <td>First and Last</td>
-      <td>Strings</td>
-    </tr>
-    
-    <tr>
-      <td>31</td>
-      <td>Repeat Each Character</td>
-      <td>Strings</td>
-    </tr>
+| # | Exercise | Concepts Practiced |
+|---|---|---|
+| 01 | Hello, Name & Output | Basic syntax, console output |
+| 02 | Sum of Two Numbers | Variables, arithmetic operators |
+| 03 | Division of Two Numbers | Arithmetic, data types |
+| 04 | Arithmetic Operations | Operators, variables |
+| 05 | Product of Two Numbers | Arithmetic |
+| 06 | Basic Arithmetic Operations | Operators, expressions |
+| 07 | Multiplication Table | Variables, loops |
+| 08 | Pattern Display: JAVA | Loops, console output |
+| 09 | Expression Evaluation | Expressions, operator precedence |
+| 10 | Formula Computation | Variables, arithmetic |
+| 11 | Circle: Area & Perimeter | Math operations, formulas |
+| 12 | Average of Three Numbers | Arithmetic, data types |
+| 13 | Celsius to Fahrenheit | Type conversion, arithmetic |
+| 14 | Even or Odd | Conditionals, modulo operator |
+| 15 | Username Generator | Strings, variables |
+| 16 | Grade Calculator | Conditionals, comparison operators |
+| 17 | Multiplication Table | Conditionals |
+| 18 | Factorial | Loops, problem solving, Methods, recursion |
+| 19 | Sum of Numbers | Loops, problem solving |
+| 20 | Area Calculator | Problem solving, math expressions |
+| 21 | Shopping Receipt | Problem solving, math expressions |
+| 22 | Personal Info | Input and information display |
+| 23 | Currency Exchange | Printing data |
+| 24 | Rectangle Border | Loops |
+| 25 | Simple Calculator | Operations |
+| 26 | Discount Price | Operators |
+| 27 | Split the Bill | Operators |
+| 28 | Digit Extractor | Operators |
+| 29 | Word Counter | Strings, Arrays |
+| 30 | First and Last | Strings |
+| 31 | Repeat Each Character | Strings |
+| 32 | Repeat a string | Strings |
+| 33 | Range Checker | Conditions |
+| 34 | Password Check | Conditions |
+| 35 | Ticket Price | Conditions |
+| 36 | Positive negative zero | Conditions |
+| 37 | Smallest of three | Conditions |
+| 38 | Countdown | Loops |
+| 39 | FizzBuzz | Conditions |
+| 40 | Sum 1 to N | Loops |
+| 41 | Star Triangle | Loops |
+| 42 | Tip calculator | Loops |
+| 43 | Power Function | Loops, functions |
+| 44 | Count Matches | Loops, functions |
+| 45 | Min and Max | Loops, Conditions |
+| 46 | Reverse a string | Loops, Strings |
+| 47 | Sum of digits | Loops |
 
-    <tr>
-      <td>32</td>
-      <td>Repeat a string</td>
-      <td>Strings</td>
-    </tr>
-    
-    <tr>
-      <td>33</td>
-      <td>Range Checker</td>
-      <td>Conditions</td>
-    </tr>
-    
-    <tr>
-      <td>34</td>
-      <td>Password Check</td>
-      <td>Conditions</td>
-    </tr>
-    
-    <tr>
-      <td>35</td>
-      <td>Ticket Price</td>
-      <td>Conditions</td>
-    </tr>
-    
-    <tr>
-      <td>36</td>
-      <td>Positive negative zero</td>
-      <td>Conditions</td>
-    </tr>
-    
-    <tr>
-      <td>37</td>
-      <td>Smallest of three</td>
-      <td>Conditions</td>
-    </tr>
-    
-    <tr>
-      <td>38</td>
-      <td>Countdown</td>
-      <td>Loops</td>
-    </tr>
-    
-    <tr>
-      <td>39</td>
-      <td>FizzBuzz</td>
-      <td>Conditions</td>
-    </tr>
-    
-    <tr>
-      <td>40</td>
-      <td>Sum 1 to N</td>
-      <td>Loops</td>
-    </tr>
-    
-    <tr>
-      <td>41</td>
-      <td>Star Triangle</td>
-      <td>Loops</td>
-    </tr>
-    
-    <tr>
-      <td>42</td>
-      <td>Tip calculator</td>
-      <td>Loops</td>
-    </tr>
-    
-    <tr>
-      <td>43</td>
-      <td>Power Function</td>
-      <td>Loops, funtions</td>
-    </tr>
-    
-    <tr>
-      <td>44</td>
-      <td>Count Matches</td>
-      <td>Loops, funtions</td>
-    </tr>
-    
-    <tr>
-      <td>45</td>
-      <td>Min and Max</td>
-      <td>Loops, Conditions</td>
-    </tr>
-    
-    <tr>
-      <td>46</td>
-      <td>Reverse a string</td>
-      <td>Loops, Strings</td>
-    </tr>
-    
-    <tr>
-      <td>47</td>
-      <td>Sum of digits</td>
-      <td>Loops</td>
-    </tr>
-    
-  </tbody>
-</table>
+</details>
 
-<hr>
+<br>
 
-<h3>02 — Functions &amp; Math, Loops</h3>
+<details>
+<summary><b>02 — Medium Exercises</b></summary>
 
-<p>
-  These exercises focus on Java's fundamental syntax, variables, arithmetic operations,
-  expressions, and basic program output.
-</p>
+<br>
 
-<table>
-  <thead>
-    <tr>
-      <th>#</th>
-      <th>Exercise</th>
-      <th>Concepts Practiced</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>01</td>
-      <td>Leap year</td>
-      <td>Conditionals</td>
-    </tr>
-    
-  </tbody>
-</table>
+These exercises explore more complex subjects of java, including Functions, Arrays, sorting, Strings, counting, and so on.
 
-<h2>🎯 Goals</h2>
+| # | Exercise | Concepts Practiced |
+|---|---|---|
+| 01 | Leap year | Conditionals |
 
-<p>This repository is intended to help me:</p>
+</details>
 
-<ul>
-  <li>Build a strong foundation in Java</li>
-  <li>Improve problem-solving and programming logic</li>
-  <li>Practice writing clean and readable code</li>
-  <li>Develop a strong understanding of Object-Oriented Programming</li>
-  <li>Become comfortable with Java's standard library</li>
-  <li>Develop consistent coding and Git practices</li>
-  <li>Prepare for backend development with Java and Spring Boot</li>
-</ul>
+<details>
+<summary><b>03 — Hard Exercises</b></summary>
 
-<hr>
+<br>
+These section explores More advanced concept and exercises in java like algorithms and  data structures
+| # | Exercise | Concepts Practiced |
+|---|---|---|
+| 01 | Caesar Cipher | Strings |
+</details>
+
+<details>
+<summary><b>04 — Small projects</b></summary>
+
+<br>
+## 🛠️ Featured Projects
+
+### Production Calculator
+A console-based shift analytics tool that tracks manufacturing line performance, calculates defect rates while preventing division-by-zero errors, and verifies production targets.
+
+* **Key Concepts:** Console I/O, integer vs. floating-point division, conditional logic, edge-case validation
+* **Status:** Complete
+
+👉 [View Project & Full Documentation](./small_projects/production_calculator/productionCalculator.java)
+</details>
+---
+
+## 🎯 Goals
+
+This repository is intended to help me:
+
+- Build a strong foundation in Java
+- Improve problem-solving and programming logic
+- Practice writing clean and readable code
+- Develop a strong understanding of Object-Oriented Programming
+- Become comfortable with Java's standard library
+- Develop consistent coding and Git practices
+- Prepare for backend development with Java and Spring Boot
+
+---
