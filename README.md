@@ -278,6 +278,12 @@
       <td>Loops</td>
     </tr>
     
+    <tr>
+      <td>43</td>
+      <td>Power Function</td>
+      <td>Loops, funtions</td>
+    </tr>
+    
   </tbody>
 </table>
 
