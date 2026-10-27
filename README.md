@@ -260,6 +260,12 @@
       <td>Conditions</td>
     </tr>
     
+    <tr>
+      <td>40</td>
+      <td>Sum 1 to N</td>
+      <td>Loops</td>
+    </tr>
+    
   </tbody>
 </table>
 
