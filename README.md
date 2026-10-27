@@ -284,6 +284,12 @@
       <td>Loops, funtions</td>
     </tr>
     
+    <tr>
+      <td>44</td>
+      <td>Count Matches</td>
+      <td>Loops, funtions</td>
+    </tr>
+    
   </tbody>
 </table>
 
