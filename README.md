@@ -83,6 +83,7 @@ These exercises focus on Java's fundamental syntax, variables, arithmetic operat
 | 45 | Min and Max | Loops, Conditions |
 | 46 | Reverse a string | Loops, Strings |
 | 47 | Sum of digits | Loops |
+| 48 | Capitalize Words | Loops, Strings |
 
 </details>
 
