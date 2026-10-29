@@ -85,7 +85,8 @@ These exercises focus on Java's fundamental syntax, variables, arithmetic operat
 | 47 | Sum of digits | Loops |
 | 48 | Capitalize Words | Loops, Strings |
 | 49 | Count letters | Loops, Strings |
-| 49 | Count Words | Loops, Strings |
+| 50 | Count Words | Loops, Strings |
+| 51 | Number Pattern | Loops, Strings |
 
 </details>
 
