@@ -104,6 +104,7 @@ These exercises explore more complex subjects of java, including Functions, Arra
 | # | Exercise | Concepts Practiced |
 |---|---|---|
 | 01 | Leap year | Conditionals |
+| 02 | Day of the week | Switches |
 
 </details>
 
