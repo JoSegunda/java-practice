@@ -108,6 +108,7 @@ These exercises explore more complex subjects of java, including Functions, Arra
 | 03 | Triangle Classifier | Conditionals |
 | 04 | Time Converter | Arithmetic |
 | 05 | Reverse Words | Strings, loops |
+| 06 | Palindrome Check | Conditionals |
 
 </details>
 
