@@ -30,7 +30,7 @@ public class Exercise48 {
           words[i] = newWord;
         }
 
-        sentence = sentence.join(" ", words);
+        sentence = String.join(" ", words);
 
         System.out.println(sentence);
 
