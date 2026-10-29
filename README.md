@@ -106,6 +106,7 @@ These exercises explore more complex subjects of java, including Functions, Arra
 | 01 | Leap year | Conditionals |
 | 02 | Day of the week | Switches |
 | 03 | Triangle Classifier | Conditionals |
+| 04 | Time Converter | Arithmetic |
 
 </details>
 
