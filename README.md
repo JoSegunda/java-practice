@@ -87,7 +87,8 @@ These exercises focus on Java's fundamental syntax, variables, arithmetic operat
 | 49 | Count letters | Loops, Strings |
 | 50 | Count Words | Loops, Strings |
 | 51 | Number Pattern | Loops, Strings |
-| 52 | Palindrome NUmber | Loops, Arithmetic |
+| 52 | Palindrome Number | Loops, Arithmetic |
+| 53 | Alternating Sum | Loops, Arithmetic |
 
 </details>
 
