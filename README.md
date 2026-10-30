@@ -110,6 +110,7 @@ These exercises explore more complex subjects of java, including Functions, Arra
 | 05 | Reverse Words | Strings, loops |
 | 06 | Palindrome Check | Conditionals |
 | 07 | Count Vowels | Conditionals |
+| 08 | Delete consecutive repeated characters | Conditionals, loops, strings |
 
 </details>
 
