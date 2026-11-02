@@ -113,6 +113,7 @@ These exercises explore more complex subjects of java, including Functions, Arra
 | 08 | Delete consecutive repeated characters | Conditionals, loops, strings |
 | 09 | Longest word in a sentence  | Conditionals, loops, strings |
 | 10 | Number Pyramid | Conditionals, loops |
+| 11 | Collatz Steps | Conditionals, loops |
 
 </details>
 
