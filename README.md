@@ -117,6 +117,7 @@ These exercises explore more complex subjects of java, including Functions, Arra
 | 12 | Prime Check | Conditionals, Arithmetic |
 | 13 | Reverse a number | loops, Arithmetic |
 | 14 | Palindrome function | strings |
+| 15 | Recursive Sum | Integers, loops |
 
 </details>
 
