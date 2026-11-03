@@ -115,6 +115,7 @@ These exercises explore more complex subjects of java, including Functions, Arra
 | 10 | Number Pyramid | Conditionals, loops |
 | 11 | Collatz Steps | Conditionals, loops |
 | 12 | Prime Check | Conditionals, Arithmetic |
+| 13 | Reverse a number | loops, Arithmetic |
 
 </details>
 
