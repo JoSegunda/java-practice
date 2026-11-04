@@ -123,6 +123,7 @@ These exercises explore more complex subjects of java, including Functions, Arra
 | 18 | Reverse a List | loops, arrays  |
 | 19 | Second largest | loops, arrays  |
 | 20 | Running Sum | loops, arrays  |
+| 21 | Count above Average | loops, arrays  |
 
 </details>
 
