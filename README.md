@@ -121,6 +121,7 @@ These exercises explore more complex subjects of java, including Functions, Arra
 | 16 | Array Map Function | Integers, loops |
 | 17 | FInd the largest | loops  |
 | 18 | Reverse a List | loops, arrays  |
+| 19 | Second largest | loops, arrays  |
 
 </details>
 
