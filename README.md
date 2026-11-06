@@ -125,6 +125,7 @@ These exercises explore more complex subjects of java, including Functions, Arra
 | 20 | Running Sum | loops, arrays  |
 | 21 | Count above Average | loops, arrays  |
 | 22 | Count longest streak | loops, arrays  |
+| 23 | Greatest Common Divisor| loops, arrays  |
 
 </details>
 
